@@ -1,0 +1,47 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\keebxyooj\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add dotev esm express mongoose
+
+PATH: 
+  C:\Program Files\Dart\dart-sdk\bin\;C:\Program Files\Dart\dart-sdk\bin\;C:\Program Files\Python311\Scripts\;C:\Program Files\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\src\flutter\bin;C:\Program Files\Dart\dart-sdk\bin;D:\programs\mongodb-shell-windows-x86_64-4.4.3\mongodb-win32-x86_64-windows-4.4.3\bin;C:\Program Files\Java\jdk-15.0.1\bin;C:\Program Files\Git\cmd;C:\Users\keebxyooj\AppData\Local\Android\Sdk\platform-tools;C:\Users\keebxyooj\AppData\Local\Android\Sdk\tools;C:\xampp\php;C:\src\dart-sdk\bin;C:\Program Files\nodejs\;C:\Program Files\Go\bin;C:\Program Files\dotnet\;C:\Users\keebxyooj\AppData\Local\Microsoft\WindowsApps;C:\Users\keebxyooj\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\keebxyooj\AppData\Local\GitHubDesktop\bin;C:\Users\keebxyooj\AppData\Local\Android\Sdk;C:\src\flutter\bin;D:\programs\mongodb-shell-windows-x86_64-4.4.3\mongodb-win32-x86_64-windows-4.4.3\bin;C:\Program Files\heroku\bin;C:\Users\keebxyooj\AppData\Roaming\npm;C:\Users\keebxyooj\go\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.3.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/dotev: Not found
+      at Request.params.callback [as _callback] (C:\Users\keebxyooj\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66145:18)
+      at Request.self.callback (C:\Users\keebxyooj\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140890:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (C:\Users\keebxyooj\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (C:\Users\keebxyooj\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "backend-blog-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "dev":"nodemon server.js"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
